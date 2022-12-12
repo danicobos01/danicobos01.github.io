@@ -98,7 +98,7 @@ En la carpeta de [Códigos](https://github.com/danicobos01/danicobos01.github.io
 * En "Steam.py" tenemos las distintas funciones que hemos utilizado para generar nuevos csvs a partir del conjunto de datos inicial. Con estos csvs más adelante hemos elaborado un cuaderno de jupyter notebook que contiene todo el análisis de mercado
 * En "reducirDatasetID.py" tenemos el proceso llevado a cabo para unir los dos conjuntos de datos que hemos usado, para poder acceder a información relevante de ambos conjuntos. 
 * En "wordCountREVIEW.py" tenemos el código que hemos desarrollado para poder generar wordClouds a través de las reviews del conjunto de datos. Dichas nubes de palabras se analizarán en el notebook donde hemos hecho el análisis. 
-* En "difYearReviews.py" tenemos el método utilizado para analizar las reviews de cada año, con el fin de ver algún cambio de tendencia respecto al año de review
+* En "difYearReviews.py" tenemos el método utilizado para analizar el número de reviews de cada juego por año, con el fin de ver algún cambio respecto al número de reviews producidas cada año.
 
 En la carpeta de [CSVs generados](https://github.com/danicobos01/danicobos01.github.io/tree/main/CSVs%20generados) podeis acceder a todos los csvs que se han generado a partir de las funciones
 Estos csvs se pueden ver con mayor detalle en el notebook dónde hemos realizado el análisis. 
