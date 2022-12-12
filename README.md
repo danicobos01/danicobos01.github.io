@@ -127,14 +127,6 @@ Sin embargo, aunque toda la información del proyecto esté en los enlaces anter
     Calculando la correlación observamos un valor de -0.3, lo cual sin ser un coeficiente de correlación lo suficientemente grande para asegurar nada si que nos permite intuir que cuántas mas reviews tenga un juego menor será el numero de palabras medio por cada review. Esto pega con la tendencia que hay a la hora de hacer reviews de ser más excueto. Hay una tendencia a escribir reviews cortas por encima de largas. 
     
     
-
-* El número de reviews ha ido aumentando cada año: 
-
-    ![](imagenes/NumReviewsPerYear.PNG)
-    
-    Podemos ver como ha ido aumentando linealmente el número de reviews con los años llegando a un pico en 2020, probablemente debido a que por la pandemia y cuarentena el número de gente que jugaba era mayor. Seguramente el valor de 2021 se pareceria más a 2019 que lo que muestra la gráfica pero el dataset del cual hemos obtenido los datos se generó antes de que acabase 2021.
-
-    
     
 
 * 9 de cada 10 juegos tiene reviews negativas más largas que reviews positivas:
@@ -182,3 +174,8 @@ En cuanto al análisis y estudio de mercado hemos aprendido algunas cosas intere
 
 En resumen, creemos que a partir de un conjunto de datos grande pero algo limitado en cuanto a número de columnas hemos sacado resultados que pueden parecer interesantes y útiles para saber como funciona el sistema de reseñas en Steam. Cabe destacar que el proyecto nos ha resultado muy interesante por la libertad que hemos tenido para poder investigar y usar los datos a nuestro antojo, promoviendo así la originalidad por parte de todos los miembros del grupo. También nos gustaría seguir investigando en el futuro tanto sobre cloud como sobre este proyecto, para sacar nuevas y mejores conclusiones
 
+## Trabajo realizado por: 
+* Javier García Viana
+* Alberto García Domenech
+* Francisco Prieto Gallego
+* Daniel Cobos Peñas
