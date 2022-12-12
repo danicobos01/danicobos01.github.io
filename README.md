@@ -9,8 +9,20 @@ Junto al Big Data hemos usado computación en la nube para realizar el estudio, 
 
 ### Dataset de reviews
 
-Fran
+Los datos han sido obtenidos de Kaggle, una pagina web que contien una gran cantidad de datasets
+para que cualquier persona pueda trabajar sobre ellos. En nuestro caso, vamos a utilizar 2 datasets 
+que han sido extraídos de la api de la plataforma de Stream. El primero de ellos, que es el dataset de reviews, contiene alrededor de 21 millones de 
+reseñas, escritas en distintos idiomas, de 300 videojuegos.
 
+La estructura del dataset de reseñas es la siguiente: app_id, app_name, review_id, language, review, timestamp_created,
+timestamp_updated, recommended, votes_helpful, votes_funny, weighted_voted_score, comment_count, steam_purchase, 
+received_for_free, written_during_early_access, author.steamid, author.num_games_owned, author_num_reviews, author.playtime_forever,
+author.playtime_at_review, author.last_played.
+
+Para el análisis de los datos no hemos usado toda la informacion de ambos datasets, sino que hemos elegido ciertas columnas. Del primer 
+dataset, el de las reseñas, hemos usado: app_name, language, review, timestamp_created, recommended, votes_helpful.
+
+Link del dataset: [Dataset](https://www.kaggle.com/datasets/najzeko/steam-reviews-2021)
 
 ### Dataset de Juegos
 
