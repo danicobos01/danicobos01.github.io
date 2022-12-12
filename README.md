@@ -161,6 +161,7 @@ Como vemos la diferencia es mínima y casi no hay diferencia entre usar tres nod
 
 Aquí vuelve a ser mínima la diferencia como en el apartado anterior.
 
-En definitiva, no hemos llegado a ninguna conclusión clara ya que no es de mucha utilidad si no podemos compararlo con spark en modo local. De todas formas nuestro motivo para decantarnos por el cluster en hadoop se ha basado más en motivos de familiaridad con el entorno que en motivos de rendimiento. 
+En definitiva, no hemos llegado a ninguna conclusión clara ya que no es de mucha utilidad si no podemos compararlo con spark en modo local. De todas formas nuestro motivo para decantarnos por el cluster en hadoop se ha basado más en motivos de familiaridad con el entorno que en motivos de rendimiento.
+
 
 
