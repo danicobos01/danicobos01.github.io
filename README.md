@@ -143,25 +143,29 @@ Estos solo son algunos de los puntos interesantes que se pueden encontrar en los
 Por la magnitud del tamaño de datos y la calidad de los ordenadores de los miembros del proyecto, ha resultado imposible analizar el rendimiento usando spark en Local, aunque sabemos que habría sido algo peor en comparación con el uso de Cluster Hadoop en Cloud, que es como hemos desarrollado el trabajo. 
 
 El clúster que hemos utilizado mayotiramiente sigue las siguientes especificaciones: 
-    ![](imagenes/cluster5workers.PNG)
+    ![](imagenes/cluster5workers.png)
 
 El bucket que hemos utilizado (sin las carpetas de output inicialmente):
-    ![](imagenes/bucket.PNG)
+    ![](imagenes/bucket.png)
 
 
 Para realizar pruebas de rendimiento hemos enfrentado dos casos:
 
 * 3 Worker nodes vs 5 Worker nodes: 
-    ![](imagenes/3y5workers.PNG)
+    ![](imagenes/3y5workers.png)
 
 Como vemos la diferencia es mínima y casi no hay diferencia entre usar tres nodos trabajadores o cinco. 
 
 * 3 Executors vs 4 Executors (ambos con 4 cores):
-    ![](imagenes/3y4executors.PNG)
+    ![](imagenes/3y4executors.png)
 
 Aquí vuelve a ser mínima la diferencia como en el apartado anterior.
 
 En definitiva, no hemos llegado a ninguna conclusión clara ya que no es de mucha utilidad si no podemos compararlo con spark en modo local. De todas formas nuestro motivo para decantarnos por el cluster en hadoop se ha basado más en motivos de familiaridad con el entorno que en motivos de rendimiento.
 
 
+## Conclusiones
 
+En cuanto al análisis y estudio de mercado hemos aprendido algunas cosas interesantes como que los juegos de acción son los más populares en las plataforma mientras que los de simulación de deportes son mucho menos populares. Hemos visto que los asiáticos son más exigentes a la hora de valorar videojuegos, o que la media de valoración de todos los videojuegos gira en torno al 8.5 en la plataforma. Hemos visto que el inglés es el idioma más utilizado en las reseñas, o que hay algunas palabras como "good", "great" o "much" que se repiten con mucha frecuencia en las reseñas positivas, etc.
+
+En resumen creemos que a partir de un conjunto de datos grande pero algo limitado en cuanto a número de columnas hemos sacado resultados que pueden parecer interesantes y útiles para saber como funciona el sistema de reseñas en Steam. 
