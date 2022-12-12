@@ -2,12 +2,12 @@
 
 Ánalisis relacional y estudio de mercado de alrededor de 21 millones reseñas de 300 diferentes videojuegos utilizando técnicas de big data y herramientas de cloud computing. El proyecto consiste en la realización de un análisis de las reviews que se han publicado en Steam en los útlimos años, con el fin de entender mejor las motivaciones de los usuarios a la hora de realizar una review o con el fin de extraer posibles correlaciones entre distintas variables que podrían explicar porque se producen ciertas reseñas. También hemos analizado los idiomas de las reseñas para ver diferencias a la hora de valorar un juego entre distintos países, y la cantidad de reseñas que tienen los juegos más populares o mejor valorados. 
 
-### Necesidad de Big Data
+## Necesidad de Big Data
 
 Steam es una plataforma que cuenta con 69 millones de usuarios en activo, y aún muchísimos más que no usan la plataforma a diario pero que son usuarios de Steam. Al ser una plataforma tan popular y mundialmente conocida y usada, no se puede realizar un estudio de las reseñas si no contamos con una gran cantidad de datos. En este contexto donde el Big Data juega un gran valor. Algunos juegos tienen más de un millón de reseñas ellos solos por lo que es imposible no recurrir al Big Data para tratar las reseñas de más de 300 juegos como hemos hecho nosotros. 
 Junto al Big Data hemos usado computación en la nube para realizar el estudio, gracias a su gran capacidad de procesamiento de datos y almacenamiento de archivos.
 
-### Dataset de reviews
+## Dataset de reviews
 
 Los datos han sido obtenidos de Kaggle, una pagina web que contien una gran cantidad de datasets
 para que cualquier persona pueda trabajar sobre ellos. En nuestro caso, vamos a utilizar 2 datasets 
@@ -24,7 +24,7 @@ dataset, el de las reseñas, hemos usado: app_name, language, review, timestamp_
 
 Link del dataset: [Dataset](https://www.kaggle.com/datasets/najzeko/steam-reviews-2021)
 
-### Dataset de Juegos
+## Dataset de Juegos
 
 Complementado el dataset anterior, también hemos utilizado un conjunto de datos algo más pequeño que incluye información de 40000 juegos en Steam. Al igual que con el dataset anterior lo hemos obtenido a través de Kaggle. Su tamaño es de 80Mb y la estructura que presenta es la siguiente: 
 "url", Url of a game, "types", type of package - app, sub or bundle, "name", Name of a game, "desc_snippet", short description of a game, "recent_reviews", recent reviews, "all_reviews", all reviews, "release_date", release date, "developer", developer of a game, "publisher", publisher or publishers of a game.
@@ -34,7 +34,7 @@ De todos estos datos hemos utilizado sobre todo el género del juego, para poder
 Link del dataset: [Dataset](https://www.kaggle.com/datasets/trolukovich/steam-games-complete-dataset)
 
 
-### ¿Cómo se puede ejecutar el código?
+## ¿Cómo se puede ejecutar el código?
 Vamos a ver las distintas formas en las que se puede ejecutar nuestro trabajo
 
 * Usar Spark en local:
@@ -91,7 +91,7 @@ Vamos a ver las distintas formas en las que se puede ejecutar nuestro trabajo
 
       *spark submit --num-executors numExecutors --executor-cores numCores <script>*
      
-### Desarrollo 
+## Desarrollo 
 
 En los siguientes enlaces podéis obtener toda la información relevante del trabajo.
 En la carpeta de [Códigos](https://github.com/danicobos01/danicobos01.github.io/tree/main/C%C3%B3digos) podéis acceder a todo el código en lenguaje Python que hemos utilizado.
@@ -138,5 +138,5 @@ Sin embargo, aunque toda la información del proyecto esté en los enlaces anter
 
 Estos solo son algunos de los puntos interesantes que se pueden encontrar en los cuadernos de jupyter dónde hemos hecho los análisis. 
 
-### Rendimiento
+## Rendimiento
 
