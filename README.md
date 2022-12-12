@@ -5,7 +5,7 @@
 ### Necesidad de Big Data
 
 Steam es una plataforma que cuenta con 69 millones de usuarios en activo, y aún muchísimos más que no usan la plataforma a diario pero que son usuarios de Steam. Al ser una plataforma tan popular y mundialmente conocida y usada, no se puede realizar un estudio de las reseñas si no contamos con una gran cantidad de datos. En este contexto donde el Big Data juega un gran valor. Algunos juegos tienen más de un millón de reseñas ellos solos por lo que es imposible no recurrir al Big Data para tratar las reseñas de más de 300 juegos como hemos hecho nosotros. 
-Junto al Big Data hemos usado computación en la nube para realizar el estudio, gracias a su gran capacidad de procesamiento de datos y almacenamiento de archivos 
+Junto al Big Data hemos usado computación en la nube para realizar el estudio, gracias a su gran capacidad de procesamiento de datos y almacenamiento de archivos.
 
 ### Dataset de reviews
 
