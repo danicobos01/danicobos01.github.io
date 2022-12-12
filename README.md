@@ -99,7 +99,7 @@ En la carpeta de [Códigos](https://github.com/danicobos01/danicobos01.github.io
 * En "reducirDatasetID.py" tenemos el proceso llevado a cabo para unir los dos conjuntos de datos que hemos usado, para poder acceder a información relevante de ambos conjuntos. 
 * En "wordCountREVIEW.py" tenemos el código que hemos desarrollado para poder generar wordClouds a través de las reviews del conjunto de datos. Dichas nubes de palabras se analizarán en el notebook donde hemos hecho el análisis. 
 
-En la carpeta de [CSVs generados](link) podeis acceder a todos los csvs que se han generado a partir de las funciones
+En la carpeta de [CSVs generados](https://github.com/danicobos01/danicobos01.github.io/tree/main/CSVs%20generados) podeis acceder a todos los csvs que se han generado a partir de las funciones
 Estos csvs se pueden ver con mayor detalle en el notebook dónde hemos realizado el análisis. 
 
 En el siguiente [Enlace](link) podeis encontrar el notebook en el que hemos realizado el ánalisis de las reseñas. El notebook cuenta con distintos apartados en los que analizamos distintos aspectos del conjunto de datos, como el numero medio de palabras utilizadas o los idiomas de las mismas. También se han estudiado distintas correlaciones para encontrar patrones a la hora de hacer reseñas. 
