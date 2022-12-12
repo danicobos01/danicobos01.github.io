@@ -118,12 +118,14 @@ Sin embargo, aunque toda la información del proyecto esté en los enlaces anter
     Haciendo el análisis nos hemos dado cuenta de una cosa curiosa y es que al ordenar el porcentaje de reviews favorables por orden ascendente vemos que los tres idiomas con menor puntuación son el chino, el japonés y el coreano. Esto nos ha llevado a la conclusión de que los asiáticos suelen escribir más reviews negativas que el resto de gente aunque sigue siendo un porcentaje favorable. 
     
     
+    
 
 * Hay una leve correlación entre el número de palabras medio de las reviews de un juego y el número de reviews del mismo:
     ![](imagenes/graficoCorrelacionReviews.PNG)
     
     
     Calculando la correlación observamos un valor de -0.3, lo cual sin ser un coeficiente de correlación lo suficientemente grande para asegurar nada si que nos permite intuir que cuántas mas reviews tenga un juego menor será el numero de palabras medio por cada review. Esto pega con la tendencia que hay a la hora de hacer reviews de ser más excueto. Hay una tendencia a escribir reviews cortas por encima de largas. 
+    
     
     
 
