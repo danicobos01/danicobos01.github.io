@@ -5,7 +5,7 @@
 ### Necesidad de Big Data
 
 Steam es una plataforma que cuenta con 69 millones de usuarios en activo, y aún muchísimos más que no usan la plataforma a diario pero que son usuarios de Steam. Al ser una plataforma tan popular y mundialmente conocida y usada, no se puede realizar un estudio de las reseñas si no contamos con una gran cantidad de datos. En este contexto donde el Big Data juega un gran valor. Algunos juegos tienen más de un millón de reseñas ellos solos por lo que es imposible no recurrir al Big Data para tratar las reseñas de más de 300 juegos como hemos hecho nosotros. 
-Junto al Big Data hemos usado computación en la nube para realizar el estudio, gracias a su gran capacidad de procesamiento de datos y almacenamiento de archivos 
+Junto al Big Data hemos usado computación en la nube para realizar el estudio, gracias a su gran capacidad de procesamiento de datos y almacenamiento de archivos.
 
 ### Dataset de reviews
 
@@ -103,7 +103,7 @@ En la carpeta de [Códigos](https://github.com/danicobos01/danicobos01.github.io
 En la carpeta de [CSVs generados](https://github.com/danicobos01/danicobos01.github.io/tree/main/CSVs%20generados) podeis acceder a todos los csvs que se han generado a partir de las funciones
 Estos csvs se pueden ver con mayor detalle en el notebook dónde hemos realizado el análisis. 
 
-En el siguiente [Enlace](link) podeis encontrar los distintos notebook en los que hemos realizado el ánalisis de las reseñas. 
+En el siguiente [Enlace](https://github.com/danicobos01/danicobos01.github.io/tree/main/Notebooks) podeis encontrar los distintos notebook en los que hemos realizado el ánalisis de las reseñas. 
 * En "csv_steam.ipynb" tenemos un notebook que cuenta con distintos apartados en los que analizamos distintos aspectos del conjunto de datos, como el numero medio de palabras utilizadas o los idiomas de las mismas. También se han estudiado distintas correlaciones para encontrar patrones a la hora de hacer reseñas. Este cuaderno está guiado para entender el análisis que se ha llevado a cabo sin necesidad de más explicaciones, ya que es el cuaderno que contiene más cantidad de análisis de la carpeta
 * En "categorias.ipynb" tenemos el estudio de los juegos más populares relacionado con los géneros de los mismos. En este cuaderno estudiamos que géneros son los más populares al igual que el tipo de juego, ya sea free-to-play o de pago. 
 * En "YearDifference.ipynb" tenemos un breve cuaderno en el que estudiamos la diferencia entre la cantidad de reviews según el año de su publicación. 
@@ -111,17 +111,32 @@ En el siguiente [Enlace](link) podeis encontrar los distintos notebook en los qu
 Sin embargo, aunque toda la información del proyecto esté en los enlaces anteriores, vamos a escribir por aquí algunos puntos que hemos encontrado interesantes y que contamos con mayor detalle en los cuadernos: 
 
 * Los asiáticos son los más exigentes a la hora de valorar un juego: 
-(gráfica de idiomas)
-Haciendo el análisis nos hemos dado cuenta de una cosa curiosa y es que al ordenar el porcentaje de reviews favorables por orden ascendente vemos que los tres idiomas con menor puntuación son el chino, el japonés y el coreano. Esto nos ha llevado a la conclusión de que los asiáticos suelen escribir más reviews negativas que el resto de gente aunque sigue siendo un porcentaje favorable. 
+
+    ![](imagenes/AsiaticValorations.PNG)
+    
+    
+    Haciendo el análisis nos hemos dado cuenta de una cosa curiosa y es que al ordenar el porcentaje de reviews favorables por orden ascendente vemos que los tres idiomas con menor puntuación son el chino, el japonés y el coreano. Esto nos ha llevado a la conclusión de que los asiáticos suelen escribir más reviews negativas que el resto de gente aunque sigue siendo un porcentaje favorable. 
+    
+    
+    
 
 * Hay una leve correlación entre el número de palabras medio de las reviews de un juego y el número de reviews del mismo:
-(dibujito correlacion)
-Calculando la correlación observamos un valor de -0.3, lo cual sin ser un coeficiente de correlación lo suficientemente grande para asegurar nada si que nos permite intuir que cuántas mas reviews tenga un juego menor será el numero de palabras medio por cada review. Esto pega con la tendencia que hay a la hora de hacer reviews de ser más excueto. Hay una tendencia a escribir reviews cortas por encima de largas. 
+    ![](imagenes/graficoCorrelacionReviews.PNG)
+    
+    
+    Calculando la correlación observamos un valor de -0.3, lo cual sin ser un coeficiente de correlación lo suficientemente grande para asegurar nada si que nos permite intuir que cuántas mas reviews tenga un juego menor será el numero de palabras medio por cada review. Esto pega con la tendencia que hay a la hora de hacer reviews de ser más excueto. Hay una tendencia a escribir reviews cortas por encima de largas. 
+    
+    
+    
 
-* 9 de cada 10 juegos tiene reviews negativas más largas que reviews positivas
-(gráfica)
-Para ser exactos, el 93% de los juegos que se incluyen en el dataset presentan el caso en el que las reviews negativas son más extensas que las reviews positivas. Esto sigue la tendencia real que tenemos como seres humanos de explayarnos o fijarnos más en los aspectos negativos que en los positivos. 
+* 9 de cada 10 juegos tiene reviews negativas más largas que reviews positivas:
+    ![](imagenes/graficoReviewsPosNeg.PNG)
+    
+    
+    Para ser exactos, el 93% de los juegos que se incluyen en el dataset presentan el caso en el que las reviews negativas son más extensas que las reviews positivas. Esto sigue la tendencia real que tenemos como seres humanos de explayarnos o fijarnos más en los aspectos negativos que en los positivos. 
+    
 
 Estos solo son algunos de los puntos interesantes que se pueden encontrar en los cuadernos de jupyter dónde hemos hecho los análisis. 
 
 ### Rendimiento
+
