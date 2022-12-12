@@ -143,20 +143,24 @@ Estos solo son algunos de los puntos interesantes que se pueden encontrar en los
 Por la magnitud del tamaño de datos y la calidad de los ordenadores de los miembros del proyecto, ha resultado imposible analizar el rendimiento usando spark en Local, aunque sabemos que habría sido algo peor en comparación con el uso de Cluster Hadoop en Cloud, que es como hemos desarrollado el trabajo. 
 
 El clúster que hemos utilizado mayotiramiente sigue las siguientes especificaciones: 
+
     ![](imagenes/cluster5workers.png)
 
 El bucket que hemos utilizado (sin las carpetas de output inicialmente):
+
     ![](imagenes/bucket.png)
 
 
 Para realizar pruebas de rendimiento hemos enfrentado dos casos:
 
 * 3 Worker nodes vs 5 Worker nodes: 
+
     ![](imagenes/3y5workers.png)
 
 Como vemos la diferencia es mínima y casi no hay diferencia entre usar tres nodos trabajadores o cinco. 
 
 * 3 Executors vs 4 Executors (ambos con 4 cores):
+
     ![](imagenes/3y4executors.png)
 
 Aquí vuelve a ser mínima la diferencia como en el apartado anterior.
