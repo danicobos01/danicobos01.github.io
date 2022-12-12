@@ -144,11 +144,11 @@ Por la magnitud del tamaño de datos y la calidad de los ordenadores de los miem
 
 El clúster que hemos utilizado mayotiramiente sigue las siguientes especificaciones: 
 
-    ![](imagenes/cluster5workers.png)
+![](imagenes/cluster5workers.png)
 
 El bucket que hemos utilizado (sin las carpetas de output inicialmente):
 
-    ![](imagenes/bucket.png)
+![](imagenes/bucket.png)
 
 
 Para realizar pruebas de rendimiento hemos enfrentado dos casos:
