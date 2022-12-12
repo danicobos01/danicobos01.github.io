@@ -103,7 +103,7 @@ En la carpeta de [Códigos](https://github.com/danicobos01/danicobos01.github.io
 En la carpeta de [CSVs generados](https://github.com/danicobos01/danicobos01.github.io/tree/main/CSVs%20generados) podeis acceder a todos los csvs que se han generado a partir de las funciones
 Estos csvs se pueden ver con mayor detalle en el notebook dónde hemos realizado el análisis. 
 
-En el siguiente [Enlace](link) podeis encontrar los distintos notebook en los que hemos realizado el ánalisis de las reseñas. 
+En el siguiente [Enlace](https://github.com/danicobos01/danicobos01.github.io/tree/main/Notebooks) podeis encontrar los distintos notebook en los que hemos realizado el ánalisis de las reseñas. 
 * En "csv_steam.ipynb" tenemos un notebook que cuenta con distintos apartados en los que analizamos distintos aspectos del conjunto de datos, como el numero medio de palabras utilizadas o los idiomas de las mismas. También se han estudiado distintas correlaciones para encontrar patrones a la hora de hacer reseñas. Este cuaderno está guiado para entender el análisis que se ha llevado a cabo sin necesidad de más explicaciones, ya que es el cuaderno que contiene más cantidad de análisis de la carpeta
 * En "categorias.ipynb" tenemos el estudio de los juegos más populares relacionado con los géneros de los mismos. En este cuaderno estudiamos que géneros son los más populares al igual que el tipo de juego, ya sea free-to-play o de pago. 
 * En "YearDifference.ipynb" tenemos un breve cuaderno en el que estudiamos la diferencia entre la cantidad de reviews según el año de su publicación. 
