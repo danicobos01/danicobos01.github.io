@@ -95,10 +95,10 @@ Vamos a ver las distintas formas en las que se puede ejecutar nuestro trabajo
 
 En los siguientes enlaces podéis obtener toda la información relevante del trabajo.
 En la carpeta de [Códigos](https://github.com/danicobos01/danicobos01.github.io/tree/main/C%C3%B3digos) podéis acceder a todo el código en lenguaje Python que hemos utilizado.
-* En "Steam.py" tenemos las distintas funciones que hemos utilizado para generar nuevos csvs a partir del conjunto de datos inicial. Con estos csvs más adelante hemos elaborado un cuaderno de jupyter notebook que contiene todo el análisis de mercado
-* En "reducirDatasetID.py" tenemos el proceso llevado a cabo para unir los dos conjuntos de datos que hemos usado, para poder acceder a información relevante de ambos conjuntos. 
-* En "wordCountREVIEW.py" tenemos el código que hemos desarrollado para poder generar wordClouds a través de las reviews del conjunto de datos. Dichas nubes de palabras se analizarán en el notebook donde hemos hecho el análisis. 
-* En "difYearReviews.py" tenemos el método utilizado para analizar el número de reviews de cada juego por año, con el fin de ver algún cambio respecto al número de reviews producidas cada año.
+* En ["steam.py"](https://github.com/danicobos01/danicobos01.github.io/blob/main/C%C3%B3digos/steam.py) tenemos las distintas funciones que hemos utilizado para generar nuevos csvs a partir del conjunto de datos inicial. Con estos csvs más adelante hemos elaborado un cuaderno de jupyter notebook que contiene todo el análisis de mercado
+* En ["reducirDatasetID.py"](https://github.com/danicobos01/danicobos01.github.io/blob/main/C%C3%B3digos/reducirDatasetID.py) tenemos el proceso llevado a cabo para unir los dos conjuntos de datos que hemos usado, para poder acceder a información relevante de ambos conjuntos. 
+* En ["wordCountREVIEW.py"](https://github.com/danicobos01/danicobos01.github.io/blob/main/C%C3%B3digos/wordcountREVIEW.py) tenemos el código que hemos desarrollado para poder generar wordClouds a través de las reviews del conjunto de datos. Dichas nubes de palabras se analizarán en el notebook donde hemos hecho el análisis. 
+* En ["difYearReviews.py"](https://github.com/danicobos01/danicobos01.github.io/blob/main/C%C3%B3digos/difYearReviews.py) tenemos el método utilizado para analizar el número de reviews de cada juego por año, con el fin de ver algún cambio respecto al número de reviews producidas cada año.
 
 En la carpeta de [CSVs generados](https://github.com/danicobos01/danicobos01.github.io/tree/main/CSVs%20generados) podeis acceder a todos los csvs que se han generado a partir de las funciones
 Estos csvs se pueden ver con mayor detalle en el notebook dónde hemos realizado el análisis. 
